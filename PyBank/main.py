@@ -12,7 +12,7 @@ for file_check in pybank_RD:
    pybank_csv = os.path.join("resources", "pybank_raw_data", "budget_data_" + file_check + ".csv")
 
    # Create new CSV
-   new_pybank_csv = os.path.join("resources", "output", "budget_data_" + file_check + ".csv")
+   new_pybank_csv = os.path.join("resources", "output", "pybank", "budget_data_" + file_check + ".csv")
 
 
    # Lists to store data
