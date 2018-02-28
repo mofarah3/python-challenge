@@ -59,7 +59,7 @@ for file_Check in PyPoll_RD:
 
        # Write Headers into file
        
-       csvWriter.writerow(str(candidates[candidate_index]) + ":   " + str(vote_counter/total_votes*100) + "%")
-       csvWriter.writerow("Election Results")
-       csvWriter.writerow("Total votes"+ str(len(votes)))
-       csvWriter.writerow(".........................")
+       csvWriter.writerow([str(candidates[candidate_index]) + ":   " + str(vote_counter/total_votes*100) + "%"])
+       csvWriter.writerow(["Election Results"])
+       csvWriter.writerow(["Total votes"+ str(len(votes))])
+       csvWriter.writerow(["........................."])
